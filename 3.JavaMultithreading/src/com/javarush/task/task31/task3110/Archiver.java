@@ -17,7 +17,6 @@ public class Archiver {
             } catch (Exception e) {
                 ConsoleHelper.writeMessage("Произошла ошибка. Проверьте введенные данные.");
             }
-
         } while (operation != Operation.EXIT);
     }
 
